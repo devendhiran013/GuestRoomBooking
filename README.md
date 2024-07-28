@@ -70,7 +70,7 @@ GET /api/rooms: Fetch all available rooms.
 POST /api/book: Book a room (requires room ID and user details).
 
 ## Stripe Integration
-GUESTRoomBOOKING uses Stripe for handling payments. Follow these steps to set up Stripe:
+GUESTROOMBOOKING uses Stripe for handling payments. Follow these steps to set up Stripe:
 
 Sign up for a Stripe account and obtain your API keys.
 Add your Stripe API keys to the .env file as described in the Configuration section.

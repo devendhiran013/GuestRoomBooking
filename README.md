@@ -41,7 +41,7 @@ GUESTROOMBOOKING aims to simplify room booking processes for various use cases s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Rangaiyan/BookMyRoom.git
+   git clone https://github.com/devendhiran013/GUESTROOMBOOKING.git
 
 
 2.  Navigate to the project directory:

@@ -70,14 +70,14 @@ GET /api/rooms: Fetch all available rooms.
 POST /api/book: Book a room (requires room ID and user details).
 
 ## Stripe Integration
-BookMyRoom uses Stripe for handling payments. Follow these steps to set up Stripe:
+GUESTRoomBOOKING uses Stripe for handling payments. Follow these steps to set up Stripe:
 
 Sign up for a Stripe account and obtain your API keys.
 Add your Stripe API keys to the .env file as described in the Configuration section.
 The application will use these keys to create payment intents and handle payment confirmations.
 
 ## Contributing
-We welcome contributions to enhance BookMyRoom. Please follow these steps to contribute:
+We welcome contributions to enhance GUESTROOMBOOKING. Please follow these steps to contribute:
 
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).

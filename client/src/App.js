@@ -15,16 +15,17 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
+          <Route path="/login" element={<LoginPage />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/register" element={<RegisterPage />} />
-          <Route path="/login" element={<LoginPage />} />
+
           <Route path="/create-listing" element={<CreateListing />} />
           <Route path="/properties/:listingId" element={<ListingDetails />} />
-          <Route path="/properties/category/:category" element={<CategoryPage/>} />
-          <Route path="/properties/search/:search" element={<Search/>} />
+          <Route path="/properties/category/:category" element={<CategoryPage />} />
+          <Route path="/properties/search/:search" element={<Search />} />
           <Route path="/:userId/trips" element={<TripList />} />
           <Route path="/:userId/wishList" element={<WishList />} />
-        </Routes> 
+        </Routes>
       </BrowserRouter>
     </div>
   );

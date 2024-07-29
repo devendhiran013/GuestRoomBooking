@@ -76,7 +76,7 @@ const Navbar = () => {
           <div className="navbar_right_accountmenu">
             <Link to={`/${user._id}/trips`}>MY BOOKINGS</Link>
             <Link to={`/${user._id}/wishList`}>Wish List</Link>
-            <Link to="/create-listing">Become A Host</Link>
+            
             <Link
               to="/login"
               onClick={() => {

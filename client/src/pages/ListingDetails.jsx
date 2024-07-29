@@ -167,6 +167,7 @@ const ListingDetails = () => {
           <div>
             <h2>How long do you want to stay?</h2>
             <div className="date-range-calendar">
+              <p>Checkin</p>
               <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
@@ -178,6 +179,7 @@ const ListingDetails = () => {
                 isClearable
                 placeholderText="Select start date"
               />
+              <p>Checkout</p>
               <DatePicker
                 selected={endDate}
                 onChange={(date) => setEndDate(date)}

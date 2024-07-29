@@ -42,11 +42,11 @@ const Navbar = () => {
         {/* Conditionally render 'Become A Host' link based on user login status */}
         {user ? (
           <a href="/create-listing" className="host">
-            Become A Host
+            Admin
           </a>
         ) : (
           <a href="/login" className="host">
-            Become A Host
+            Admin
           </a>
         )}
 
@@ -74,7 +74,7 @@ const Navbar = () => {
         {/* Dropdown menu for logged-in users */}
         {dropdownMenu && user && (
           <div className="navbar_right_accountmenu">
-            <Link to={`/${user._id}/trips`}>MY BOOKINGS</Link>
+            <Link to={`/${user._id}/trips`}>My Bookings</Link>
             <Link to={`/${user._id}/wishList`}>Wish List</Link>
             
             <Link

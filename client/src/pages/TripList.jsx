@@ -93,7 +93,7 @@ const TripList = () => {
   ) : (
     <>
       <Navbar />
-      <h1 className="title-list">Your Trip List</h1>
+      <h1 className="title-list">Your Bookings</h1>
       <div className="list">
         {tripList?.length > 0 ? (
           tripList.map((trip) => {

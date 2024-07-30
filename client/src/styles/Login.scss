@@ -1,93 +1,95 @@
-@import "./variables.scss";
-@import "./breakpoints.scss";
+.container-fluid {
+  padding: 3rem 0;
+}
 
-.login {
-  width: 100vw;
-  height: 100vh;
+.h-custom {
+  min-height: 100vh;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-md-6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background: url("../../public/assests/image.png") center;
-  background-size: cover;
+}
 
-  &_content {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 40%;
-    padding: 40px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
+.form-label {
+  margin-bottom: .5rem;
+}
 
-    @include lg {
-      width: 60%
-    }
+.form-control {
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: .875rem; // Smaller font size
+  border-radius: .25rem;
+}
 
-    @include mm {
-      width: 80%
-    }
+.form-control-lg {
+  padding: .5rem 1rem;
+  font-size: 1rem; // Adjusted font size
+}
 
-    &_form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 15px;
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+}
 
-      input {
-        width: 100%;
-        padding: 7px 15px;
-        background-color: transparent;
-        border: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        outline: none;
-        text-align: center;
-        color: white;
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
 
-        input:not(:placeholder-shown):focus {
-          background: transparent; /* or background: none; */
-        }
+.btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+}
 
-        &::placeholder {
-          color: white;
-        }
-      }
+.text-center {
+  text-align: center;
+}
 
-      button {
-        margin-top: 15px;
+.text-md-start {
+  text-align: center;
+}
 
-        @include buttonStyle;
-        width: 50%;
+.link-danger {
+  color: #dc3545;
+}
 
-        &:hover {
-          box-shadow: 0 0 10px 3px rgba(255, 255, 255);
-        }
-      }
-    }
+.link-danger:hover {
+  color: #c82333;
+}
 
-    &_google {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 
-    a {
-      text-decoration: none;
-      color: white;
-      font-size: 17px;
-      font-weight: 600;
-      text-align: center;
+.divider:before,
+.divider:after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
 
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+.divider:before {
+  margin-right: .5em;
+}
 
-    p {
-      color: white;
-      font-size: 13px;
-      text-align: center;
-    }
-  }
+.divider:after {
+  margin-left: .5em;
 }

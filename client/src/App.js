@@ -9,6 +9,8 @@ import TripList from './pages/TripList.jsx';
 import WishList from './pages/WishList.jsx';
 import CategoryPage from './pages/CategoryPage.jsx';
 import Search from './pages/Search.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (

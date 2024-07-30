@@ -1,5 +1,6 @@
 # GUESTROOMBOOKING
 
+
 GUESTROOMBOOKING is a web application designed to streamline the process of booking rooms, integrated with Stripe for secure payment handling. The application leverages React for a dynamic frontend experience, fetching and displaying room data from an API.
 
 ## Table of Contents
@@ -14,6 +15,8 @@ GUESTROOMBOOKING is a web application designed to streamline the process of book
 - [Stripe Integration](#stripe-integration)
 - [Contributing](#contributing)
 - [License](#license)
+- [Deployment](#deployment)
+
 
 ## Project Description
 
@@ -87,3 +90,5 @@ Open a Pull Request.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+## Deployment
+The live version of the application can be accessed at: https://guest-room-booking-ku7u5w0h4-devendhiran013s-projects.vercel.app/login

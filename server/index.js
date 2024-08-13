@@ -13,7 +13,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-
+app.get("/", (req, res) => {
+  res.send("Welcome to the Guestroom Booking API");
+});
 
 /* ROUTES */
 app.use("/auth", authRoutes)

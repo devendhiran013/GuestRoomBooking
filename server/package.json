@@ -16,9 +16,9 @@
   },
   "name": "server",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon api/index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",

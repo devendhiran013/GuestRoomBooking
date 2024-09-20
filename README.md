@@ -15,7 +15,7 @@ GUESTROOMBOOKING is a web application designed to streamline the process of book
 - [Stripe Integration](#stripe-integration)
 - [Contributing](#contributing)
 - [License](#license)
-- [Deployment](#deployment)
+
 
 
 ## Project Description
@@ -90,5 +90,4 @@ Open a Pull Request.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-## Deployment
-The live version of the application can be accessed at: https://guest-room-booking-9643vwa3r-devendhiran013s-projects.vercel.app/login
+

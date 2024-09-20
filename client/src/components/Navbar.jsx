@@ -39,14 +39,14 @@ const Navbar = () => {
       </div>
 
       <div className="navbar_right">
-        {/* Conditionally render 'Become A Host' link based on user login status */}
+        {/* Conditionally render 'Become A Host' link based on user role */}
         {user ? (
           <a href="/create-listing" className="host">
-            Admin
+            {user.role === "admin" ? "Admin" : "User"}
           </a>
         ) : (
           <a href="/login" className="host">
-            Admin
+            Log In
           </a>
         )}
 
